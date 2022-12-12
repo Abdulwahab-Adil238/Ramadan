@@ -1,0 +1,133 @@
+.ramadan_info {
+    margin-top: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.ramadan_details {
+    padding: 1rem;
+}
+
+.ramadan_details p {
+    color: var(--para_color);
+    font-family: Mono;
+    font-size: 1.5rem;
+}
+
+.information_img>img {
+    max-width: 100%;
+
+}
+
+figure {
+    padding: 2rem;
+}
+
+figcaption {
+    font-family: Mono;
+    font-size: 1rem;
+}
+
+figcaption p {
+    color: var(--para_color);
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+section {
+    border-bottom: 2px solid linear-gradient(blue, white);
+
+}
+
+.money_cach_form form {
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    backdrop-filter: blur(1rem);
+    box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.644), 1px 1px 10px 0px rgba(128, 128, 128, 0.479);
+}
+
+.input_data {
+    backdrop-filter: blur(15rem);
+    width: 50%;
+    margin: 2rem auto 0rem;
+    border: 1px solid rgba(65, 139, 102, 0.842);
+    font-size: 1.3rem;
+    border-radius: 1.6rem;
+    padding: 10px 30px;
+    box-shadow: 1px 2px 10px 1px var(--color_left), 1px 5px 10px 3px var(--color_right);
+}
+
+.input_data:focus {
+    backdrop-filter: blur(15rem);
+    outline: 2px solid deepskyblue;
+}
+
+.input_data::placeholder {
+    text-align: right;
+    font-family: Mono;
+    color: var(--color_left);
+}
+
+.money_cach_form .gender_selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    gap: 2rem;
+}
+
+.money_cach_form div label,
+.money_cach_form div h2 {
+    font-size: 1.7rem;
+    margin-right: .2rem;
+    color: var(--para_color);
+    font-family: Mono;
+}
+
+.gender_selection>div {
+    display: flex;
+}
+
+.gender_selection .gender_input {
+    margin-top: .1rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.btn {
+    white-space: nowrap;
+    text-align: center;
+    outline: none;
+    font-size: 2rem;
+    font-family: Mono;
+    margin: 3rem auto;
+    opacity: .5;
+    transition: all .2s ease;
+    border-radius: 1.5rem;
+    background: transparent;
+    color: var(--color_left);
+    outline: none;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.671);
+}
+
+button:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 1.4rem;
+    font-family: Mono;
+    color: var(--color_right);
+}
+
+.mybtn a {
+    text-decoration: none;
+}

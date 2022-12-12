@@ -1,0 +1,36 @@
+.center_ramadan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ramadan_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+}
+
+.days_container {
+  width: 80%;
+  display: inline-block;
+  margin: auto;
+
+}
+
+.day {
+  width: 90%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: .2rem solid var(--heading_color);
+}
+
+li {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-family: Mono;
+  color: black;
+}

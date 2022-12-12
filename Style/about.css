@@ -1,0 +1,44 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.about h1 {
+  color: rgb(30, 75, 121);
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  border-bottom: 1px solid gray;
+}
+
+.about img {
+  width: 150px;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.person_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  width: 20rem;
+  border: 2px solid white;
+  border-radius: 1rem;
+  filter: blur(.2px);
+  box-shadow: 1px 3px 10px 2px rgb(207, 193, 193);
+  transition: all 1s ease;
+  margin-bottom: 2rem;
+
+}
+
+.person_info:hover {
+  transform: scale(1.2, 1.1);
+}
