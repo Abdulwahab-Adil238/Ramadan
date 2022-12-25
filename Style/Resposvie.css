@@ -1,5 +1,22 @@
-@media (max-width:768px) {
-  img {
-    margin-top: 10rem;
+@media(max-width:800px) {
+
+  .img_middle {
+    display: flex;
+    align-items: center;
+  }
+
+  .media_flex_col {
+    display: flex;
+    flex-direction: column-reverse !important;
+  }
+
+  .display_none {
+    display: none !important;
+  }
+}
+
+@media (max-width:505px) {
+  .display_none {
+    display: none !important;
   }
 }
